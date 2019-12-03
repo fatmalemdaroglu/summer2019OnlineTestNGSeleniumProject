@@ -1,4 +1,4 @@
-package AgileProject;
+package tests.Vytrack;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

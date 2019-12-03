@@ -1,6 +1,5 @@
 package utils;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,6 +20,7 @@ public class BrowserFactory {
             WebDriverManager.firefoxdriver().setup();
             return new FirefoxDriver();
         }
-        return null;
+        WebDriverManager.chromedriver().setup();
+        return new ChromeDriver();
     }
 }

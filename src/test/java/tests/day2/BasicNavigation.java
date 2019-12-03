@@ -16,7 +16,7 @@ public class BasicNavigation {
         //URL can be passed as an object
         //or as a string
         //we use string
-        driver.navigate().to("http://amazon.com");
+        driver.navigate().refresh();
         //if i want to comeback to the previous page
         driver.navigate().back();
         //if i want to know Url of current site

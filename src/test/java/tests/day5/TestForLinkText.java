@@ -10,7 +10,7 @@ public class TestForLinkText {
         driver.get("http://practice.cybertekschool.com/");
         //<a href="/autocomplete">Autocomplete</a>
         //Autocomplete --> it's the text that you see in the link
-        //place where it will navigate you spicified in href
+        //place where it will navigate you specified in href
         //it works only if tag name is <a>
         //if you wnat to use linktext or partialLinkText laocator stradagy
         //element must start with <a>

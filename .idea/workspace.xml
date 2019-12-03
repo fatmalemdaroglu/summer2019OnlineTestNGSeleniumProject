@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="048db78e-427c-4148-99ab-9820aa013afe" name="Default Changelist" comment="day5">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CalenderEventsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/FileUploading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/PopUpPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/WindowSwitching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11/WaitsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12/ActionsClassHoverPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12/DragAndDropPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12/FramesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12/JSExecutorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13/WebTablesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/ConfigReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day6/AbsoluteXpathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day6/BitrixLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/AnnotationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/CssSelectorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/MultipleButtonsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/TestNGPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/WarmUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day8/CheckBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day8/DropDowns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day8/RatioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day9/LocatorsReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day9/TestNGReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/summer2019OnlineTestNGSeleniumProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/summer2019OnlineTestNGSeleniumProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day1/MyFirstSeleniumScript.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day2/BasicNavigation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day3/BrowserFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day3/DifferenceQuitAndClose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day3/navigationPractice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day4/EnterTestPractice2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day4/EnterTextPractice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day4/FindelementTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day4/ReadAttributesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day5/TestForIdLocator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day5/TestsForClassNameLocator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day5/TestsForNameLocator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AgileProject/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day1/MyFirstSeleniumScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day1/MyFirstSeleniumScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day2/BasicNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day2/BasicNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day5/TestForLinkText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day5/TestForLinkText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Cocuklar\IdeaProjects\summer2019OnlineTestNGSeleniumProject\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SFtkHxqcSiCjx3RbVn62oJVt7V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTests.test1">
+    <configuration name="ActionsClassHoverPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.ActionsClassHoverPractice" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSExecutorPractice.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.Vytrack.LoginTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTests.test1" />
+        <item itemvalue="TestNG.LoginTest.test2" />
+        <item itemvalue="TestNG.LoginTest.test1" />
+        <item itemvalue="TestNG.JSExecutorPractice.test3" />
+        <item itemvalue="TestNG.ActionsClassHoverPractice.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="048db78e-427c-4148-99ab-9820aa013afe" name="Default Changelist" comment="" />
+      <created>1571171312772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571171312772</updated>
+    </task>
+    <task id="LOCAL-00001" summary="day5">
+      <created>1572297981168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572297981168</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day5">
+      <created>1572316446215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572316446215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day5" />
+    <option name="LAST_COMMIT_MESSAGE" value="day5" />
+  </component>
+</project>

@@ -14,10 +14,10 @@ import utils.Driver;
 
 public class LoginPage extends BasePage{
 
-    @FindBy(id = "prependedInput")//this line will initialize web element
+    @FindBy(id = "prependedInput") //this line will initialize web element
     public WebElement userNameInput;
 
-    @FindBy(id = "prependedInput2")//without Findby web element will be null
+    @FindBy(id = "prependedInput2")//without findby, web element will be null
     public WebElement passwordInput;
 
     @FindBy(id = "_submit")
@@ -26,19 +26,20 @@ public class LoginPage extends BasePage{
     @FindBy(css = "[class='alert alert-error']")
     public WebElement warningMessage;
 
-
-    public LoginPage(){
-        //it's mandotary if you want to use @FindBy annotation
+    public LoginPage() {
+        //it's mandatory if you want to use @FindBy annotation
         //this means LoginPage class
-        //Driver.get() it returns WebDriver object
-        PageFactory.initElements(Driver.get(),this);
+        //Driver.get() return webdriver object
+        PageFactory.initElements(Driver.get(), this);
     }
-    /*
-    reusable login method
-    just call this method to login provide username and password
-    @param userName
-    @password
-    */
+
+    /**
+     * reusable login method
+     * just call this method to login
+     * provide username and password as parameters
+     * @param userName
+     * @param password
+     */
     public void login(String userName, String password){
         userNameInput.sendKeys(userName);
         //Keys.ENTER to replace login click

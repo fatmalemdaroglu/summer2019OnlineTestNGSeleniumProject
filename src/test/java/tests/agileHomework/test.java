@@ -1,12 +1,11 @@
-package tests.Vytrack;
+package tests.agileHomework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utils.BrowserFactory;
-import utils.BrowserUtils;
 
-public class Test2 {
+public class test {
     public static void main(String[] args) {
         //to create an object by using BrowserFactory class
         WebDriver driver = BrowserFactory.getDriver("chrome");
@@ -15,25 +14,24 @@ public class Test2 {
         //to find username box
         WebElement userName = driver.findElement(By.name("_username"));
         //to enter username
-        userName.sendKeys("storeman207");
-        BrowserUtils.wait(2);
+        userName.sendKeys("storemanager207");
         //to find password box
         WebElement password = driver.findElement(By.name("_password"));
         //to enter password
-        password.sendKeys("User123");
+        password.sendKeys("UserUser123");
         //to find submit button
         WebElement button = driver.findElement(By.id("_submit"));
         //to click that button
         button.click();
-        BrowserUtils.wait(2);
-        String ActualErrorMessage = driver.findElement(By.xpath("//div[contains(text(),\"Invalid user name or password.\")]")).getText();
-        String ExpectedErrorMessage = "Invalid user name or password.";
-        if(ActualErrorMessage.equals(ExpectedErrorMessage)){
-            System.out.println("Pass");
+        //to test if the app login
+        String expextedURL = "https://qa2.vytrack.com/";
+        String actualURL = driver.getCurrentUrl();
+        if(expextedURL.equals(actualURL)){
+            System.out.println("Test Passed");
         }else{
-            System.out.println("Fail");
+            System.out.println("Test Failed");
         }
         //to close the tab
-        driver.quit();
+        driver.close();
     }
 }

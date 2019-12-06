@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 import tests.TestBase;
+import utils.ConfigurationReader;
 import utils.Driver;
 
 //we write extends TestBase to inherits @before and @after methods
@@ -20,7 +21,7 @@ public class LoginTests extends TestBase {
         LoginPage loginpage = new LoginPage();
         //call login method
         //provide username and password
-        loginpage.login("storemanager85","UserUser123");
+        loginpage.login(ConfigurationReader.getProperty("user_name"),ConfigurationReader.getProperty("password"));
         /*
         WebDriverWait wait = new WebDriverWait(Driver.get(),10);
         //this is an explicit wait

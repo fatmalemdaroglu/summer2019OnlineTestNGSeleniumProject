@@ -56,7 +56,8 @@ public class TestNGReview {
 //   What is this? It's when same test runs multiple times with different test data set
     @DataProvider(name = "testData")
     public static Object[][] testData(){
-        return new Object[][]{{"https://www.apple.com/", "Apple"}, //1st set of data
+        return new Object[][]{
+                {"https://www.apple.com/", "Apple"}, //1st set of data
                 {"http://google.com", "Google"}     //2nd set of data
         };
     }

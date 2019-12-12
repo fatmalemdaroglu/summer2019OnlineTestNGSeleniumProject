@@ -4,13 +4,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.BrowserUtils;
 import utils.Driver;
-
+//everything that is in common among pages
+//can go here
+//for example top menu elements don't belong to specific page
+//top menu appears on every single page
+//so we can keep them here
 public class BasePage {
 
     @FindBy(css = "div[class='loader-mask shown']")
@@ -69,23 +74,24 @@ public class BasePage {
      * @param subModuleName normalize-space() same line .trim() in java
      */
     public void navigateTo(String moduleName, String subModuleName) {
-        String moduleLocator = "//*[normalize-space()='" + moduleName + "' and @class='title title-level-1']";
-        String subModuleLocator = "//*[normalize-space()='" + subModuleName + "' and @class='title title-level-2']";
-
-        WebDriverWait wait = new WebDriverWait(Driver.get(), 10);
-
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(moduleLocator)));
-        WebElement module = Driver.get().findElement(By.xpath(moduleLocator));
-        wait.until(ExpectedConditions.visibilityOf(module));
-        wait.until(ExpectedConditions.elementToBeClickable(module));
-
-        waitUntilLoaderMaskDisappear();
-        module.click(); //once we clicked on module, submodule should be visible
-
-        WebElement subModule = Driver.get().findElement(By.xpath(subModuleLocator));
-        wait.until(ExpectedConditions.visibilityOf(subModule));
-        wait.until(ExpectedConditions.elementToBeClickable(subModule));
-        subModule.click();
+        String tabLocator = "//span[normalize-space()='" + moduleName + "' and contains(@class, 'title title-level-1')]";
+        String moduleLocator = "//span[normalize-space()='" + subModuleName + "' and contains(@class, 'title title-level-2')]";
+        try {
+            BrowserUtils.waitForClickablility(Driver.get().findElement(By.xpath(tabLocator)),5);
+            WebElement tabElement = Driver.get().findElement(By.xpath(tabLocator));
+            new Actions(Driver.get()).moveToElement(tabElement).pause(200).doubleClick(tabElement).build().perform();
+        } catch (Exception e) {
+            BrowserUtils.clickWithWait(By.xpath(tabLocator), 5);
+        }
+        try {
+            BrowserUtils.waitForPresenceOfElement(By.xpath(moduleLocator), 5);
+            BrowserUtils.waitForClickablility(Driver.get().findElement(By.xpath(moduleLocator)),5);
+            BrowserUtils.scrollToElement(Driver.get().findElement(By.xpath(moduleLocator)));
+            Driver.get().findElement(By.xpath(moduleLocator)).click();
+        } catch (Exception e) {
+            BrowserUtils.waitForStaleElement(Driver.get().findElement(By.xpath(moduleLocator)));
+            BrowserUtils.clickWithTimeOut(Driver.get().findElement(By.xpath(moduleLocator)),  5);
+        }
     }
 
     /**

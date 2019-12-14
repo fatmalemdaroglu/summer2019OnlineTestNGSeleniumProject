@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048db78e-427c-4148-99ab-9820aa013afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateACarTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="048db78e-427c-4148-99ab-9820aa013afe" name="Default Changelist" comment="&quot;commit day22&quot;">
+      <change afterPath="$PROJECT_DIR$/cars.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/ReadTestDataFromExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vytrack_testusers.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateCalendarEventTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateCalendarEventTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/NewCalendarEventsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/NewCalendarEventsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateACarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateACarTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/SmokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day9/TestNGReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day9/TestNGReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" afterDir="false" />
@@ -30,6 +24,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FavoritesManager">
+    <favorites_list name="summer2019OnlineTestNGSeleniumProject" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -48,6 +45,11 @@
       </set>
     </option>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="$PROJECT_DIR$/smoke_test.xml" />
+    </enabled-run-configurations>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -63,11 +65,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cocuklar\IdeaProjects\summer2019OnlineTestNGSeleniumProject" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -87,20 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.JSExecutorPractice.Test">
-    <configuration name="LoginTestsWithExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.day20_ddt_with_excel.LoginTestsWithExcel" />
-      <module name="summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day20_ddt_with_excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CreateACarTests">
     <configuration name="C:/Users/Cocuklar/IdeaProjects/summer2019OnlineTestNGSeleniumProject/smoke_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="summer2019OnlineTestNGSeleniumProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke_test.xml" />
@@ -121,17 +113,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutorPractice.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateACarTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.Vytrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="PACKAGE_NAME" value="tests.Vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.Vytrack.CreateACarTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateACarTests.createCarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.Vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.Vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.Vytrack.CreateACarTests" />
+      <option name="METHOD_NAME" value="createCarTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,18 +148,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestsWithExcel.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewCalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day20_ddt_with_excel.*" />
+          <option name="PATTERN" value="tests.Vytrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day20_ddt_with_excel" />
-      <option name="MAIN_CLASS_NAME" value="tests.day20_ddt_with_excel.LoginTestsWithExcel" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.Vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.Vytrack.NewCalendarEventsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JSExecutorPractice.Test" />
-        <item itemvalue="TestNG.LoginTestsWithExcel.loginTest" />
-        <item itemvalue="Application.LoginTestsWithExcel" />
-        <item itemvalue="TestNG.C:/Users/Cocuklar/IdeaProjects/summer2019OnlineTestNGSeleniumProject/smoke_test.xml" />
+        <item itemvalue="TestNG.CreateACarTests" />
+        <item itemvalue="TestNG.CreateACarTests.createCarTest" />
         <item itemvalue="TestNG.C:/Users/Cocuklar/IdeaProjects/summer2019OnlineTestNGSeleniumProject/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/Cocuklar/IdeaProjects/summer2019OnlineTestNGSeleniumProject/smoke_test.xml" />
+        <item itemvalue="TestNG.NewCalendarEventsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575660341755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;commit day20&quot;">
+      <created>1576162946480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576162946480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +241,8 @@
     <MESSAGE value="day5" />
     <MESSAGE value="&quot;third commit&quot;" />
     <MESSAGE value="&quot;commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;commit&quot;" />
+    <MESSAGE value="&quot;commit day20&quot;" />
+    <MESSAGE value="&quot;commit day22&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;commit day22&quot;" />
   </component>
 </project>

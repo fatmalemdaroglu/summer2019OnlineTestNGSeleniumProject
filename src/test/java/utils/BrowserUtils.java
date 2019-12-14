@@ -149,6 +149,11 @@ public class BrowserUtils {
             error.printStackTrace();
         }
     }
+    public static void waitForPageTitle(String pageTitle) {
+        WebDriverWait wait = new WebDriverWait(Driver.get(), 10);
+        wait.until(ExpectedConditions.titleIs(pageTitle));
+
+    }
     //marufcan's
     public static void clickWithWait(By by, int attempts) {
         int counter = 0;

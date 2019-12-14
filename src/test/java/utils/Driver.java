@@ -15,7 +15,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class Driver {
 
     private static WebDriver driver;
- //you can not d like this ,if constructor is private Driver obj = new Driver();
+    //you can not d like this ,if constructor is private Driver obj = new Driver();
     private Driver(){
 
     }
@@ -33,6 +33,8 @@ public class Driver {
                     break;
                 case "chrome-headless":
                     WebDriverManager.chromedriver().setup();
+                    //to configure
+                    //to run tests without interface  set to true
                     driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
                 case "firefox":
@@ -79,3 +81,21 @@ public class Driver {
         }
     }
 }
+    //we can use this for test different browsers in one file
+//        public static WebDriver get(String... arg) {
+//            String browser = "";
+//            if(arg == null){
+//                browser = ConfigurationReader.getProperty("browser");
+//            }else{
+//                browser = arg[0];
+//            }
+//    String browser = ConfigurationReader.getProperty("browser");
+//            switch (browser) {
+//                    case "chrome":
+//                    WebDriverManager.chromedriver().setup();
+//                    //to configure chrome browser for tests
+//                    ChromeOptions chromeOptions = new ChromeOptions();
+//                    //to run tests without interface, set to true
+//                    chromeOptions.setHeadless(false);
+//                    driver = new ChromeDriver(chromeOptions);
+//                    break;

@@ -17,6 +17,7 @@ public class SmokeTest extends TestBase {
         loginPage.login(ConfigurationReader.getProperty("user_name") , ConfigurationReader.getProperty("password"));
         loginPage.navigateTo(moduleName, subModuleName);
         loginPage.waitUntilLoaderMaskDisappear();
+        loginPage.waitForPageSubtitle(pageSubTitle);
         Assert.assertEquals(loginPage.getPageSubTitle(),pageSubTitle);
         extentTest.pass("Verified that page subtitle "+ pageSubTitle+" is displayed");
     }

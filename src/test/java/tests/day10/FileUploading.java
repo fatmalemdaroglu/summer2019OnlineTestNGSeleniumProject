@@ -34,3 +34,5 @@ public class FileUploading {
         driver.quit();
     }
 }
+//        features = "src/test/resources/features",   //path to features
+//                glue = "com/vytrack/step_definitions",       //path to step definitions

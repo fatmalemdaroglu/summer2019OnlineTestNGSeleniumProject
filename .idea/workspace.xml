@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048db78e-427c-4148-99ab-9820aa013afe" name="Default Changelist" comment="&quot;commit day22&quot;">
-      <change afterPath="$PROJECT_DIR$/cars.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22/ReadTestDataFromExcelFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vytrack_testusers.xlsx" afterDir="false" />
+    <list default="true" id="048db78e-427c-4148-99ab-9820aa013afe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCalendarEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateACarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/CreateACarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/SmokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day20_ddt_with_excel/LoginTestsWithExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Vytrack/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Vytrack/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day10/FileUploading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day10/FileUploading.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -221,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576162946480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;commit day22&quot;">
+      <created>1576303440949</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576303440949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -7,7 +7,7 @@ import tests.TestBase;
 import utils.ConfigurationReader;
 import utils.Driver;
 
-//we write extends TestBase to inherits @before and @after methods
+//we write extends tests.TestBase to inherits @before and @after methods
 //this class will be dedicated to tests related to login page only
 //we don't have to find elements here
 //we should find elements in page classes only

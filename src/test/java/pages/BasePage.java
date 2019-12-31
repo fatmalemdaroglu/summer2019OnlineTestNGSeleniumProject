@@ -35,7 +35,7 @@ public class BasePage {
 
     public BasePage() {
         //this method requires to provide webdriver object for @FindBy
-//asdfgh
+//asdfghj
         PageFactory.initElements(Driver.get(), this);
     }
 
